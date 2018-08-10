@@ -19,7 +19,7 @@ public class Burt_C_1 {
     public static void main(String[] args) {
         
         /**  Using scanner takes input form keyboard
-         * 
+         *  test
          * .next after 'user_input" moves to next token 
          */
         Scanner user_input = new Scanner(System.in);
