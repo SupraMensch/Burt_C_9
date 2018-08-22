@@ -1,49 +1,39 @@
 /**
- *Christopher Burt, Project #1
- * 
- * Create an application that inputs user's full name and displays in specific format.
- * 
- */
-
+*Christopher Burt, Project #1
+* 
+* Create an application that inputs user's full name and displays in specific format.
+* 
+*/
 package burt_c_1;
 
-/**
- * Import Scanner class from Java.util
- */
-import java.util.Scanner;
 
+import java.util.Scanner;  //Needed for Scanner class
 
-
-public class Burt_C_1 {
-
-    public static void main(String[] args) {
+public class Burt_C_1 
+{
+    public static void main(String[] args) 
+    {
+        String first_Name, middle_Name, last_Name, entire_Name;
         
-        /**  Using scanner takes input form keyboard
-         *  test
-         * .next after 'user_input" moves to next token 
-         */
+        /**  Using scanner takes input from keyboard
+        *   .next after 'user_input" moves to next token 
+        */
+        //Scanner object for input
         Scanner user_input = new Scanner(System.in);
-        
-        String first_name;
+                       
+        //Gather user info
         System.out.print("Enter your first name: ");
-        first_name = user_input.next();
+        first_Name = user_input.next();
         
-        String middle_name;
         System.out.print("Enter your middle name: ");
-        middle_name = user_input.next();
+        middle_Name = user_input.next();
         
-        String last_name;
         System.out.print("Enter your last name: ");
-        last_name = user_input.next();
+        last_Name = user_input.next();
         
-        String entire_name;
-        entire_name = last_name + ", " + first_name + " " + middle_name;
+        entire_Name = last_Name + ", " + first_Name + " " + middle_Name; 
         
-        System.out.println("Your name is: " + entire_name);
-        
-        
+        //Display information back to the user
+        System.out.println("Your name is: " + entire_Name);        
     }
-
-    
-    
 }
