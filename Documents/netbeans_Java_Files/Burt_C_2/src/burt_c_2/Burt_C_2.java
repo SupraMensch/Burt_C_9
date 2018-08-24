@@ -1,7 +1,7 @@
 // Burt, Christopher Project#2
 
 // This program prompts the user for the cost of a meal and then calculates and displays 
-// three different percentage tip types
+// three different percentage tip type and totals.
 
 package burt_c_2;
 
@@ -21,7 +21,7 @@ public class Burt_C_2
         
         tip_15 = .15 * bill_Amount;
         tip_15WithBill = tip_15 + bill_Amount; // initialize combined tip percentage and original bill amount
-        System.out.printf("\nThe tip at 15 percent is: $ %4.2f \n", tip_15 );  // chose 4.3 for average meal purchase& payment practicality
+        System.out.printf("\nThe tip at 15 percent is: $ %4.2f \n", tip_15 );  // chose 4.3 for average meal purchase & payment practicality
         System.out.printf("The bill with a 15 percent tip is: $ %4.2f \n \n", tip_15WithBill );
         
         tip_18 = .18 * bill_Amount;
