@@ -1,7 +1,7 @@
 // Burt, Christopher 
 // Project # 2
 // This program prompts the user for the cost of a meal and then calculates and displays- 
-// three different percentage values and totals.
+// three different tip percentage values and totals.
 
 package burt_c_2;
 
