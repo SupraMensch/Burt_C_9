@@ -4,17 +4,19 @@
  * and open the template in the editor.
  */
 package burt_c_9;
+// Christopher Burt
+// Project # 9
 
-/**
- *
- * @author cwade
- */
+// This program converts celsius to Farenheit and displays the result as a table
+
+
 public class Burt_C_9 {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
+    // 1. Create a method that accepts the Celsius temperature as an argument and returns the Fahrenheit temperature.
+    //2. In your main method, write a loop that that calls the method and passes it temperatures from 0 to 100 in increments of 10 (0, 10, 20, 30, etc.).
+    //3. In this loop, display the Celsius and Fahrenheit equivalent as a table.
+    public static void main(String[] args)
+    {
         // TODO code application logic here
         // this is a test
         
@@ -22,5 +24,8 @@ public class Burt_C_9 {
         
         // time to do another test
         
+        
+        
+    }  
     
 }
