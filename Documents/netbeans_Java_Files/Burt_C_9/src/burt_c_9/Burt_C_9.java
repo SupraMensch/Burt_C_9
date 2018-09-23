@@ -19,14 +19,19 @@ public class Burt_C_9
     public static void main(String[] args)
     {
         double celsius, fahrenheit;
+         
+        
+
+    }  
+    public static double celsiusToFarenheit(double fahrenheit)
+    {
+        double celsius;
         Scanner input = new Scanner(System.in);
         System.out.print("Please enter the temperature in Celsius:");
         celsius = input.nextDouble();
         fahrenheit = celsius * 1.8 +32;
         System.out.println("The temperature in Fahrenheit is:" + fahrenheit);
-        
-        
-        
-    }  
+        return celsius;
+    }
     
 }
